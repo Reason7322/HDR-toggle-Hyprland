@@ -21,7 +21,7 @@ Save the script and make it executable by using the command: chmod +x toggle-hdr
 
 Put the script in this location -> /home/yourusername/.local/bin/
 
-Reload you Hyprlands config with the command hyprctl reload.
+Reload you Hyprlands config with the command: hyprctl reload, or just log out and log back in.
 
 By pressing Super/Win/Meta key + H you should be able to toggle HDR On and Off.
 
