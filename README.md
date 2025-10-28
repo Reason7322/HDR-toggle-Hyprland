@@ -5,22 +5,19 @@ If it was saved to your /home, just do: nano ~/toggle-hdr.sh
 
 You need to edit the 
 'Configurations'
-do not edit anything else
+do not modify anything else
 
 You have to check Hyprland's Wiki on how to configure your monitor and all of the relevant settings -> https://wiki.hypr.land/Configuring/Monitors/
 
 After that you can bind it to any key you want, in that location:
 
-~/.config/hypr/custom.d/regular/
+~/.config/hypr/custom.d/regular/hyprland.conf
 or at
 ~/.config/hypr/hyprland.conf
 
+Add this line to your config: bind = SUPER, H, exec, sh -c "/home/yourusername/.local/bin/toggle-hdr.sh"
 
-ive created a .conf file called binds, so for me its ~/.config/hypr/custom.d/regular/binds.conf
-
-put this line there: bind = SUPER, H, exec, sh -c "/home/yourusername/.local/bin/toggle-hdr.sh"
-
-save the script and make it executable by using the command chmod +x toggle-hdr.sh
+Save the script and make it executable by using the command: chmod +x toggle-hdr.sh
 
 Put the script in this location -> /home/yourusername/.local/bin/
 
