@@ -5,6 +5,7 @@ Instructions:
 1. Open the script for editing
 
 If you saved it to your Home directory: nano ~/toggle-hdr.sh
+
 If saved to Downloads: nano ~/Downloads/toggle-hdr.sh
 
 2. Set the correct monitor config
